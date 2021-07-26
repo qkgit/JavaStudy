@@ -1,4 +1,4 @@
-package pers.qkgit.JavaOOp.parameter;
+package pers.qkgit.javaOOp.attribute.parameter;
 
 /**
  * 类属性VS局部变量

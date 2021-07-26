@@ -1,4 +1,4 @@
-package pers.qkgit.JavaOOp.testHero;
+package pers.qkgit.javaOOp.classAndObject.testHero;
 
 /**
  * @Author Qi
