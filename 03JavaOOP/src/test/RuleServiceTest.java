@@ -1,3 +1,5 @@
+
+import org.junit.Test;
 import pers.qkgit.javaUtils.rule.model.RuleDto;
 import pers.qkgit.javaUtils.rule.rule.AddressRule;
 import pers.qkgit.javaUtils.rule.rule.AgeRule;
@@ -11,7 +13,9 @@ import java.util.Arrays;
  * @data 2021/8/6 14:17
  */
 public class RuleServiceTest {
-    public static void main(String[] args) {
+
+    @Test
+    public void test(){
         // 规则执行器
         // 优点：比较简单，每个规则可以独立，将规则，数据，执行器拆分出来，调用方比较规整
         // 缺点：数据依赖公共传输对象 dto
