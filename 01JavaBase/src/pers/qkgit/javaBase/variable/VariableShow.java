@@ -60,6 +60,16 @@ public class VariableShow {
         System.out.println(c2);
         System.out.println(c3);
         System.out.println(c4);
+        char cc1 = 'a';
+        char cc2 = 97;//开发中非常少见
+
+        System.out.println(cc2);
+
+        char cc3 = 5;
+        char cc4 = '5';
+
+        int i2 = (int)cc4;
+        System.out.println(i2);//53
 
         //② 表示方式：1.声明一个字符 2.转义字符 3.直接使用 Unicode 值来表示字符型常量
         char c5 = '\n';//换行符
