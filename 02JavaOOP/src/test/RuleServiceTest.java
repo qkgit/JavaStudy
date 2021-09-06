@@ -14,6 +14,7 @@ import java.util.Arrays;
  */
 public class RuleServiceTest {
 
+
     @Test
     public void test(){
         // 规则执行器
