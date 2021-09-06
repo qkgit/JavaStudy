@@ -73,4 +73,5 @@ public class SwitchTest {
 
         System.out.println(year + "年" + month + "月" + day + "日是当年的第" + sumDays + "天");
     }
+
 }
