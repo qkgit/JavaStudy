@@ -45,11 +45,11 @@ public class RuleServiceTest {
 
         System.out.println("执行结果: " + ruleResult);
 
-//        boolean b = RuleService
-//                .create()
-//                .and(Arrays.asList(addressRule))
-//                .or(Arrays.asList(addressRule))
-//                .execute(dto1);
-//        System.out.println(b);
+        boolean b = RuleService
+                .create()
+                .and(Arrays.asList(addressRule))
+                .or(Arrays.asList(addressRule))
+                .execute(dto1);
+        System.out.println(b);
     }
 }
