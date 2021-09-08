@@ -1,12 +1,12 @@
-package pers.qkgit.javaOOp.classAndObject.testHero;
+package pers.qkgit.javaOOp.classAndObject.oop;
+
+import pers.qkgit.javaOOp.classAndObject.model.Hero;
 
 /**
  * @Author Qi
  * @data 2021/7/21 14:44
  */
 public class TestHero {
-
-
     public static void main(String[] args) {
         /**
          *  1.类和对象
@@ -15,7 +15,7 @@ public class TestHero {
         Hero garen = new Hero();
         Hero teemo =  new Hero();
         /**
-         * 2.参数
+         * 2.属性
          */
         garen.name = "盖伦";
         garen.hp = 857.0F;
