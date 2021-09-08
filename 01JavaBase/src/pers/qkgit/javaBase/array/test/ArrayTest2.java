@@ -1,4 +1,4 @@
-package pers.qkgit.javaBase.array.text;
+package pers.qkgit.javaBase.array.test;
 
 /**
  * @Auther Qi
@@ -18,7 +18,7 @@ package pers.qkgit.javaBase.array.text;
  *  *   	外层元素的初始化值为：null
  *  *      内层元素的初始化值为：不能调用，否则报错。
  */
-public class ArrayText2 {
+public class ArrayTest2 {
     public static void main(String[] args) {
         int[][] arr = new int[4][3];
         System.out.println(arr[0]);//[I@15db9742

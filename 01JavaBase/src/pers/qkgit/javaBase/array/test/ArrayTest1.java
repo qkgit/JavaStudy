@@ -1,4 +1,4 @@
-package pers.qkgit.javaBase.array.text;
+package pers.qkgit.javaBase.array.test;
 
 /**
  * @Auther Qi
@@ -11,7 +11,7 @@ package pers.qkgit.javaBase.array.text;
  *  *
  *  * 		> 数组元素是引用数据类型：null
  */
-public class ArrayText1 {
+public class ArrayTest1 {
     public static void main(String[] args) {
         //5.数组元素的默认初始化值
         System.out.println("*****int*****");
