@@ -4,7 +4,7 @@ package pers.qkgit.javaOOp.classAndObject.model;
  * @Author Qi
  * @data 2021/7/23 13:53
  */
-public class Attribute {
+public class HeroAttribute {
     //属性（或成员变量）
     public String attr;
 
