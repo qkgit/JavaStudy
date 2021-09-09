@@ -4,6 +4,7 @@ package pers.qkgit.javaOOp.classAndObject.model;
  * @Author Qi
  * @data 2021/7/21 17:28
  */
+//1.创建类，设计类的成员
 public class Hero {
     public String name; //姓名
     public float hp; //血量
