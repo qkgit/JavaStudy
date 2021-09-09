@@ -1,4 +1,4 @@
-package pers.qkgit.javaOOp.method.recursion;
+package pers.qkgit.javaOOp.classAndObject.method.recursion;
 
 /**
  * @Author Qi

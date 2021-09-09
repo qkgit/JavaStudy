@@ -1,4 +1,4 @@
-package pers.qkgit.javaOOp.method.valueTransfer;
+package pers.qkgit.javaOOp.classAndObject.method.valueTransfer;
 
 /**
  * @Author Qi
