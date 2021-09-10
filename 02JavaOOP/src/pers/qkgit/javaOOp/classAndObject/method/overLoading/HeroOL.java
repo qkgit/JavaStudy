@@ -4,9 +4,9 @@ package pers.qkgit.javaOOp.classAndObject.method.overLoading;
  * @Author Qi
  * @data 2021/7/23 22:59
  */
-public class Hero {
+public class HeroOL {
     String name; //姓名
-    double attack;//攻击力
+    public double attack;//攻击力
     float hp; //血量
     float armor; //护甲
     int moveSpeed; //移动速度
@@ -39,7 +39,7 @@ public class Hero {
      * 获得当前攻击力
      * @return
      */
-    double getSumAttack(){
+    public double getSumAttack(){
         return attack;
     }
 
@@ -48,7 +48,7 @@ public class Hero {
      * @param skillAttack 技能加成
      * @return
      */
-    double getSumAttack(double skillAttack){
+    public double getSumAttack(double skillAttack){
         return attack+skillAttack;
     }
 
@@ -60,7 +60,7 @@ public class Hero {
      * @param equipAttack 装备加成
      * @return
      */
-    double getSumAttack(int ... equipAttack){
+    public double getSumAttack(int ... equipAttack){
         for (int i : equipAttack) {
 //            System.out.println(i);
             attack += i;

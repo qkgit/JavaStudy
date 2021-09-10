@@ -51,3 +51,8 @@ public class ValueTransferTest1 {
         data.n = temp;
     }
 }
+
+class Data {
+    int m;
+    int n;
+}

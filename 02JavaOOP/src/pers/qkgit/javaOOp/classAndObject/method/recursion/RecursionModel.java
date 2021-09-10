@@ -6,7 +6,7 @@ package pers.qkgit.javaOOp.classAndObject.method.recursion;
  *
  * 递归方法：一个方法体内调用它自身。
  */
-public class testRecursion {
+public class RecursionModel {
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class testRecursion {
         }
         System.out.println("sum(100)="+sum);
         // 方式二：
-        testRecursion test = new testRecursion();
+        RecursionModel test = new RecursionModel();
         int sum1 = test.getSum(n);
         System.out.println("sum(100)="+sum1);
 
