@@ -1,6 +1,5 @@
 package pers.qkgit.javaOOp.classAndObject.model;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 /**
  * @Author Qi
@@ -8,12 +7,33 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
  */
 //1.创建类，设计类的成员
 public class Hero {
-    public String name; //姓名
-    public float hp; //当前血量
-    public float maxHP; // 最大生命值
-    public float armor; //护甲
-    public int moveSpeed; //移动速度
+    public String name;   // 姓名
+    public float hp;      // 当前血量
+    public float maxHP;   // 最大生命值
+    public float armor;   // 护甲
+    public int moveSpeed; // 移动速度
+    private int price;    // 价格
 
+
+    /**
+     * 构造器
+     * 定义构造器的格式：
+     * 权限修饰符  类名(形参列表){
+     *     方法体
+     * }
+     */
+    public Hero(){
+        System.out.println("Hero()................");
+    }
+    public Hero(String name){
+        System.out.println("Hero(name)............");
+        this.name = name;
+    }
+    public Hero(String name, int price){
+        System.out.println("Hero(name,price)........");
+        this.name = name;
+        this.price = price;
+    }
 
     /**
      *方法的声明：
@@ -63,7 +83,22 @@ public class Hero {
     public void recovery(){
         this.hp += 0.05 * this.maxHP;
     }
-
+    // 对线
+    public void duiXian(){
+        System.out.println("正在对线。。。");
+    }
+    // 补兵
+    public void buBing(){
+        System.out.println("正在补兵。。。");
+    }
+    // 获取价格
+    public int getPrice() {
+        return price;
+    }
+    // 设置价格
+    public void setPrice(int price){
+        this.price = price;
+    }
 
 
     @Override
@@ -74,6 +109,7 @@ public class Hero {
                 ", maxHP=" + maxHP +
                 ", armor=" + armor +
                 ", moveSpeed=" + moveSpeed +
+                ", price=" + price +
                 '}';
     }
 }
