@@ -1,4 +1,4 @@
-package pers.qkgit.javaOOp.encapsulation.encaps;
+package pers.qkgit.javaOOp.encapsulation.model;
 
 /**
  * @Author Qi
@@ -6,7 +6,7 @@ package pers.qkgit.javaOOp.encapsulation.encaps;
  */
 public class Hero {
 
-    String name;        // 名称
+    public String name;         // 名称
     private double hp;          // 血量
     private double attack;      // 攻击力
     private double power;       // 法强

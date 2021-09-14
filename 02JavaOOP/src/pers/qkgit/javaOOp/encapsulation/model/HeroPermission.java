@@ -1,10 +1,10 @@
-package pers.qkgit.javaOOp.encapsulation.permissionModifier;
+package pers.qkgit.javaOOp.encapsulation.model;
 
 /**
  * @Author Qi
  * @data 2021/7/26 16:59
  */
-public class Hero {
+public class HeroPermission {
 
     String name;            // 名称
     private double hp;      // 血量
